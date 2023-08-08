@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out-Fit</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse" style="position:relative; width: 100%;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="\images\Outfit.png" style="width: 160px; height: 40px; margin-top: 15px;">
+          </div>
+          <div class="dropdown1">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class='fa fa-user' id="userBtn" style='font-size:30px;  margin-left: 400px; margin-top: 20PX;'></i>
+            </a>
+            <ul class="dropdown-menu1 dropdown-menu" style="margin-left: 340px;" id="userDropdown">
+              <li style="margin-left: 20px;">Profile</li>
+              <li><a href="#" style="color: rgb(178, 79, 96);">Hey,User</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">My Address</a></li>
+              <li><a href="#">Payments</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="admin.html">Admin</a></li>
+              <li><a href="#" style="background-color: orange; color: white;">Sign Up</a></li>
+            </ul>
+          </div>
+          <i class='fa fa-heart' id="heartBtn" style='font-size:30px; margin-left: 20px;'></i>
+          <a href="basket.html"><i class='fa fa-shopping-cart' id="cartBtn" style='font-size:30px; margin-left: 20px;'> <span class="badge" style="margin-top: -20px; background-color:brown; color:white; margin-left: -10px; font-weight: bold;">1</span></i></a>
+    
+          <ul class="nav navbar-nav ">
+            <li class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown" href="#">Women</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Ethic Wear</a></li>
+                  <li><a href="#">Eastern Wear</a></li>
+                  <li><a href="#">Sleep Wear</a></li>
+                  <li><a href="#">Sports Wear</a></li>
+                  <li><a href="#">Top Brands</a></li>
+                  <li><a href="#">Beauty</a></li>
+                  <li><a href="#">Foot Wear/Bags</a></li>
+                  <li><a href="#">Watches</a></li>
+                  <li><a href="#">Jewellery</a></li>
+                  <li><a href="#">Fragrances</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Men</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Topwear</a></li>
+                  <li><a href="#">Bottomwear</a></li>
+                  <li><a href="#">Activewear</a></li>
+                  <li><a href="#">Ethnic</a></li>
+                  <li><a href="#">Winterwear</a></li>
+                  <li><a href="#">Innerwear</a></li>
+                  <li><a href="#">Top Brands</a></li>
+                  <li><a href="#">Watches</a></li>
+                  <li><a href="#">Sunglasses</a></li>
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Grooming</a></li>
+                  <li><a href="#">Add-ons</a></li>
+                </ul>
+              </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kids</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Boys</a></li>
+                  <li><a href="#">Girls</a></li>
+                  <li><a href="#">Top Brands</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Price Point Store</a></li>
+                  <li><a href="#">Age Store</a></li>
+                  <li><a href="#">Shop Boys Footwear</a></li>
+                  <li><a href="#">Shop Girls Footwear</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Shoes</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Essentials</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Beauty</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Lips</a></li>
+              <li><a href="#">Face</a></li>
+              <li><a href="#">Eyes</a></li>
+              <li><a href="#">Nails</a></li>
+              <li><a href="#">SkinCare</a></li>
+              <li><a href="#">Bath & Body</a></li>
+              <li><a href="#">Fragrances</a></li>
+                </ul>
+              </li>
+          </ul>
+          <form class="navbar-form navbar-right" action="/action_page.php" style="margin-top: -50px; padding-right: 340px;">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+              <input type="text" class="form-control"  placeholder="What are you looking for?" name="search">
+                </div>
+          </form>
+        </div>
+      </nav>
+
+      <h1 style="font-size: 30px; font-weight: lighter; font-family:Georgia, 'Times New Roman', Times, serif; margin-left: 5px; margin-top: -10px;">Your Basket</h1>
+      <!-- 2nd Nav -->
+      <nav class="nav2" style="background-color: rgb(45, 42, 42); width: 100%; height: 40px; margin-top: -10px;">
+        <h2 style="color: white; font-size: 15px; padding-left: 10px; margin-top: 10px;">ITEM DESCRIPTION</h2>
+        <ul>
+            <li><a href="#">UNIT PRICE</a></li>
+            <li><a href="#">QUANTITY</a></li>
+            <li><a href="#">SUBTOTAL</a></li>
+            <li><a class="SAVING" href="#">SAVING</a></li>
+        </ul>
+    </nav>
+    <section class="itemDes">
+      <img src="\images\cartImage.jpg" width="100px" height="100px" style="margin-top: 10px; margin-left: 15px;">
+      <p style="margin-left: 14px; font-size: 13px; margin-top: 5px;">BOSSINI Men Printed Slim Casual Shirt</p>
+      <div style="margin-left: 560px; margin-top: -100px;">
+        <p>Original Price<br>Rs 809<br>Discounted Price<br>Rs 809</p>
+      </div>
+      <div class="Quantity" style="margin-left: 780px; margin-top: -80px;">
+        <button id="increment">+</button>
+        <input type="text" id="quantity" value='1'>
+        <button id="decrement">-</button>
+      </div>
+      <div style="margin-left: 1020px; margin-top: -30px;">
+        <h4 id="sbTotal">809</h4>
+        <h4 style="margin-top: -30px; margin-left: -30px;">Rs</h4>
+      </div>
+      <div style="margin-left: 1220px; margin-top: -40px;">
+      <h4 style="margin-left: -30px; margin-top: 20px;">Rs</h4>
+      <h4 id="saving" style="margin-top: -30px;">90</h4>
+      </div>
+      <div style="margin-top: 130px; margin-left: 20px;">
+      <h5>SubTotal</h5>
+      <h5>Delivery Charges</h5>
+      <h5 style="margin-left: 250px; margin-top: -50px;">Rs</h5>
+      <h5 style="margin-left: 270px; margin-top: -25px;" id="del">809</h5>
+      <h3 style="color: red; margin-left: 255px; margin-top: -0px;">***</h3>
+    </div>
+    <div style="margin-left: 400px;">
+      <h5 style="margin-top: -62px; color: red;">You Saved!</h5>
+      <h5 style="margin-top: 0px; margin-left: 20px; color: red;">Rs</h5>
+      <h5 style="margin-top: -25px; margin-left: 43px; color: red;" id="rs">90</h5>
+    </div>
+    <div style="margin-left: 50px; margin-top: 50px;">
+      <h1 style="color: black;">Total</h1>
+      <h2 style="color: black; margin-top: -45px; margin-left: 200px;">Rs</h2>
+      <h2 style="color: black; margin-top: -43px; margin-left: 250px;" id="TL">809</h2>
+
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<footer class="footer1">
+  <br>
+<div class="footerDiv1">
+  <h3>Women</h3>
+  <p>Ethic Wear</p>
+  <p>Eastern Wear</p>
+  <p>Sleep Wear</p> 
+  <p>Sports Wear</p>
+  <p>Top Brands</p>  
+  <p>Beauty</p> 
+  <p>Foot Wear/Bags</p>
+  <p>Watches</p> 
+  <p>Jewellery</p> 
+  <p>Fragrances</p>
+</div>
+<div class="footerDiv2">
+  <h3>Men</h3>
+  <p>Topwear</a</p>
+  <p>Bottomwear</p>
+  <p>Activewear</p>
+  <p>Ethnic</p>
+  <p>Winterwear</p>
+  <p>Innerwear</p>
+  <p>Top Brands</p>
+  <p>Watches</p>
+  <p>Sunglasses</p>
+  <p>Shoes</p> 
+  <p>Grooming</p>
+  <p>Add-ons</p>
+</div>
+<div class="footerDiv3">
+  <h3>Kids</h3>
+  <p>Boys</p>
+  <p>Girls</p>
+  <p>Top Brands</p>
+  <p>Accessories</p>
+  <p>Price Point Store</p>
+  <p>Age Store</p>
+  <p>Shop Boys Footwear</p>
+  <p>Shop Girls Footwear</p>
+</div>
+<div class="footerDiv4">
+  <h3>Shoes & Bags</h3>
+    <p>women</p>
+    <p>Men</p>
+    <p>Boys</p>
+    <p>Girls</p>
+    <p>Accessories</p>
+    <p>Essentials</p>
+</div>
+<div class="footerDiv5">
+  <h3>Beauty</h3>
+  <p>Makeup Eyes</p>
+  <p>Makeup Face</p>
+  <p>Makeup Lips</p>
+  <p>Makeup Nails</p>
+  <p>Perfumes</p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section style="width: 100%; height: 100px; background-color: white; border-top: 0.5px solid rgb(168, 168, 168);">
+    <br>
+    <img src="\images\Outfit.png" width="200px">
+    <h5 style="color: black;   margin-top: -20px; margin-left: 405px; font-size: 20px;" >Terms & Conditions - Privacy Policy</h5>
+    <div style="margin-top: -50px; ">
+    <i class="fa fa-facebook" style="color: black; padding: 0 10px; font-size: 40px; margin-left: 1000px;"></i>
+    <i class="fa fa-twitter" style="color: black; font-size: 40px; padding: 0 10px;"></i>
+    <i class="fa fa-instagram" style="color:black; font-size: 40px; padding: 0 10px;"></i>
+    <i class="fa fa-youtube" style="color: black; font-size: 40px; padding: 0 10px;"></i>
+  </div>
+  </section>
+  <script src="Script.js"></script>
+</body>
+</html>

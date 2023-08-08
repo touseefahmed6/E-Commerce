@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out-Fit</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+ 
+</head>
+
+<body>
+  <!-- First Header -->
+    <div class="header">
+  <a href="#default" class="logo"><i class="fa fa-truck" style="font-size:28px;"></i> Free shipping</a>
+  <a href="#default" class="click"><i class='fa fa-mobile' style='font-size:30px; color: white;'></i> Click & Collect</a>
+  <a href="#default" class="save"><i class='fa fa-home' style='font-size:30px; color: white;'></i>   Return To Store</a>
+  <div class="header-right">
+    <a href="#" class="download">Download Our App</a>
+    <h2 class="line2">|</h2>
+    <a href="#" class="store">Store Locator</a>
+    <h2 class="line3">|</h2>
+    <a href="#" class="help">Help</a>
+    
+  </div>
+</div>
+<!-- Navbar -->
+
+<nav class="navbar navbar-inverse" style="position:relative; width: 1323px;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="\images\Outfit.png" style="width: 160px; height: 40px; margin-top: 15px;">
+      </div>
+      <div class="dropdown1">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <i class='fa fa-user' id="userBtn"></i>
+        </a>
+        <ul class="dropdown-menu1 dropdown-menu" style="margin-left: 340px;" id="userDropdown">
+          <li style="margin-left: 20px;">Profile</li>
+              <li><a href="#" style="color: rgb(178, 79, 96);">Hey,User</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">My Address</a></li>
+              <li><a href="#">Payments</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="admin.html">Admin</a></li>
+              <li><a href="#" style="background-color: orange; color: white;">Sign Up</a></li>
+        </ul>
+      </div>
+      <i class='fa fa-heart' id="heartBtn" style='font-size:30px; margin-left: 20px;'></i>
+      <a href="basket.html"><i class='fa fa-shopping-cart' id="cartBtn" style='font-size:30px; margin-left: 20px;'> <span class="badge" style="margin-top: -20px; background-color:brown; color:white; margin-left: -10px; font-weight: bold;">1</span></i></a>
+
+      <ul class="nav navbar-nav ">
+        <li class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown" href="#">Women</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Ethic Wear</a></li>
+              <li><a href="#">Eastern Wear</a></li>
+              <li><a href="#">Sleep Wear</a></li>
+              <li><a href="#">Sports Wear</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Foot Wear/Bags</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Jewellery</a></li>
+              <li><a href="#">Fragrances</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Men</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Topwear</a></li>
+              <li><a href="#">Bottomwear</a></li>
+              <li><a href="#">Activewear</a></li>
+              <li><a href="#">Ethnic</a></li>
+              <li><a href="#">Winterwear</a></li>
+              <li><a href="#">Innerwear</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Sunglasses</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Grooming</a></li>
+              <li><a href="#">Add-ons</a></li>
+            </ul>
+          </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kids</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Price Point Store</a></li>
+              <li><a href="#">Age Store</a></li>
+              <li><a href="#">Shop Boys Footwear</a></li>
+              <li><a href="#">Shop Girls Footwear</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Shoes</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Essentials</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Beauty</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Lips</a></li>
+              <li><a href="#">Face</a></li>
+              <li><a href="#">Eyes</a></li>
+              <li><a href="#">Nails</a></li>
+              <li><a href="#">SkinCare</a></li>
+              <li><a href="#">Bath & Body</a></li>
+              <li><a href="#">Fragrances</a></li>
+            </ul>
+          </li>
+      </ul>
+      <form class="navbar-form navbar-right" action="/" style="margin-top: -40px; padding-right: 320px;">
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+          <input type="text" class="form-control" placeholder="What are you looking for?" name="search">
+            </div>
+      </form>
+    </div>
+  </nav>
+  <!-- 2nd Header -->
+  <header class="header2">New arrivals in mens and womens wear upto 30% off ❤️</header>
+  <!-- carousel -->
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="\images\store1.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="\images\store.gif" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="\images\store3.jpg" alt="New York" style="width:100%;">
+        
+      </div>
+      <div class="item">
+        <img src="\images\store4.gif" alt="New York" style="width:100%;">
+  </div>
+      <div class="item">
+        <img src="\images\store5.jpg" alt="New York" style="width:100%;">
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<section class="sec6">
+  <img src="\images\store6.jpg" class="img-fluid" alt="..."> 
+</section>
+<article class="article1">
+  <h1>Our Benefits</h1>
+  <img src="\images\line.png">
+</article>
+<article class="article4">
+<img class="img1" src="\images\free.jpg">
+<img class="img2" src="\images\collect.jpg">
+<img class="img3" src="\images\return.jpg">
+<img class="img4" src="\images\Lee.jpg" >
+</article>
+<article class="article2">
+  <h1>Unmissable Offers</h1>
+  <img src="\images\line.png">
+</article>
+
+  <!-- carousel -->
+  <div class="container" style="height: 100px;">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 400px; width: 400px; margin-left: 80px; margin-top: -30px;">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+  
+        <div class="item active">
+          <img src="\images\Up1.jpg" alt="Los Angeles" style="width:100%; height: 500px;">
+        </div>
+  
+        <div class="item">
+          <img src="\images\Up2.jpg" alt="Chicago" style="width:100%; height: 500px;">
+        </div>
+      
+        <div class="item">
+          <img src="\images\Up3.jpg" alt="New York" style="width:100%; height: 500px;">
+          
+        </div>
+        <div class="item">
+          <img src="\images\Up4.jpg" alt="New York" style="width:100%; height: 500px;">
+    </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+<!-- carousel -->
+<div class="container" style="height: 100px;">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 400px; width: 400px; margin-left: 600px; margin-top: -130px;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="\images\Up5.jpg" alt="New York" style="width:100%; height: 500px;">
+      </div>
+      <div class="item">
+        <img src="\images\Up6.jpg" alt="New York" style="width:100%; height: 500px;">
+      </div>
+      <div class="item">
+        <img src="\images\Up7.jpg" alt="New York" style="width:100%; height: 500px;">
+      </div>
+      <div class="item">
+        <img src="\images\Up8.jpg" alt="New York" style="width:100%; height: 500px;">
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<article class="article3">
+  <h1>Women's Store</h1>
+  <img src="\images\line.png" >
+</article>
+<img src="\images\women.jpg" width="1100px" height="320px"  style="margin-left: 60px; margin-top: -20px; border-radius: 15px;">
+
+<div class="scroll-container">
+  <img src="\images\women1.jpg" alt="Cinque Terre">
+  <img src="\images\Women2.jpg" alt="Forest">
+  <img src="\images\Women3.jpg" alt="Northern Lights">
+  <img src="\images\Women4.jpg" alt="Mountains">
+  <img src="\images\women5.jpg" alt="Mountains">
+  <img src="\images\women6.jpg" alt="Mountains">
+  <img src="\images\women7.jpg" alt="Mountains">
+  <img src="\images\women8.jpg" alt="Mountains">
+  <div class="text">All Products 50% Off</div>
+</div>
+<article class="article5">
+  <h1>Mens's Store</h1>
+  <img src="\images\line.png" >
+</article>
+<img src="\images\Men.jpg" width="1100px" height="320px"  style="margin-left: 60px; margin-top: -20px; border-radius: 15px;">
+<div class="scroll-container">
+  <img src="\images\Men1.jpg" alt="Cinque Terre">
+  <img src="\images\Men2.jpg" alt="Forest">
+  <img src="\images\Men3.jpg" alt="Northern Lights">
+  <img src="\images\Men4.jpg" alt="Mountains">
+  <img src="\images\Men5.jpg" alt="Mountains">
+  <img src="\images\Men6.jpg" alt="Mountains">
+  <img src="\images\Men7.jpg" alt="Mountains">
+  <img src="\images\Men8.jpg" alt="Mountains">
+  <div class="text">All Products 50% Off</div>
+</div>
+<article class="article6">
+  <h1>Kids Store</h1>
+  <img src="\images\line.png" >
+</article>
+<img src="\images\Kids.jpg" width="1100px" height="320px"  style="margin-left: 60px; margin-top: -20px; border-radius: 15px;">
+<div class="scroll-container">
+  <img src="\images\Kid1.jpg" alt="Cinque Terre">
+  <img src="\images\Kid2.jpg" alt="Forest">
+  <img src="\images\Kid3.jpg" alt="Northern Lights">
+  <img src="\images\Kid4.jpg" alt="Mountains">
+  <img src="\images\Kid5.jpg" alt="Mountains">
+  <img src="\images\Kid6.jpg" alt="Mountains">
+  <div class="text">All Products 50% Off</div>
+</div>
+<article class="article7">
+  <h1>Trending Add-Ons</h1>
+  <img src="\images\line.png" >
+</article>
+<img src="\images\Trendings.gif" width="1100px" height="320px"  style="margin-left: 60px; margin-top: -20px; border-radius: 15px;">
+<div class="scroll-container">
+  <img src="\images\Trending.jpg" alt="Cinque Terre">
+  <img src="\images\Trending2.jpg" alt="Forest">
+  <img src="\images\Trending3.jpg" alt="Northern Lights">
+  <img src="\images\Trending4.jpg" alt="Mountains">
+  <img src="\images\Trending5.jpg" alt="Mountains">
+  <img src="\images\Trending6.jpg" alt="Mountains">
+  <div class="text">All Products 50% Off</div>
+</div>
+
+<article class="article8">
+  <h1>Season's Hottest Deals</h1>
+  <img src="\images\line.png" >
+</article>
+
+<!-- Images used to open the lightbox -->
+<div class="row" style="margin-left: 100px; width: 1100px;">
+  <div class="column">
+    <img src="\images\Season1.jpg" style="margin-left: 0px; width: 250px; height: 350px;" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season2.jpg" style=" width: 250px; height: 350px; margin-left: -5px;" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season3.jpg"  style="margin-left: -10px; width: 250px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season4.jpg"  style="margin-left: -17px; width: 250px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- Images used to open the lightbox -->
+<div class="row" style="margin-left: 100px; width: 1100px;">
+  <div class="column">
+    <img src="\images\Season5.jpg" style="margin-left: 0px; width: 250px; height: 350px;" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season6.jpg" style=" width: 250px; height: 350px; margin-left: -5px;" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season7.jpg"  style="margin-left: -10px; width: 250px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Season8.jpg"  style="margin-left: -17px; width: 250px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+
+<article class="article9">
+  <h1>Big Brands Big Discounts</h1>
+  <img src="\images\line.png" >
+</article>
+<div class="row" style="margin-left: 125px; width: 1200px;">
+  <div class="column">
+    <img src="\images\Big1.jpg" style="margin-left: -60px; width: 180px; height: 350px;" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big2.jpg" style=" width: 180px; height: 350px; margin-left: -170px;" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big3.jpg"  style="margin-left: -280px; width: 180px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big4.jpg"  style="margin-left: -390px; width: 180px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big5.jpg"  style="margin-left: 700px; margin-top: -370px; width: 180px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big6.jpg"  style=" margin-top: -375px; margin-left: 590px; width: 180px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- Images used to open the lightbox -->
+<div class="row" style="margin-left: 125px; width: 1200px; margin-top: -20px;">
+  <div class="column">
+    <img src="\images\Big7.jpg" style="margin-left: -60px; width: 180px; height: 350px;" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big8.jpg" style=" width: 180px; height: 350px; margin-left: -170px;" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big9.jpg"  style="margin-left: -280px; width: 180px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big10.jpg"  style="margin-left: -390px; width: 180px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big11.jpg"  style="margin-left: 700px; margin-top: -370px; width: 180px; height: 350px;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="\images\Big12.jpg"  style=" margin-top: -375px; margin-left: 590px; width: 180px; height: 350px;"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+<article class="article10">
+  <h1>Welcome Summer</h1>
+  <img src="\images\line.png" >
+</article>
+<div style="margin-left: 70px; margin-top: -50px;">
+  <img src="\images\Summer1.jpg" style="width: 1100px;">
+  <img src="\images\Summer2.jpg" style="width: 1100px;">
+</div>
+<article class="article11">
+  <h1>\images\Big Brands \images\Big Discounts</h1>
+  <img src="\images\line.png" >
+</article>
+<div style="margin-left: 30px; margin-top: -50px;">
+  <img src="\images\Summer3.jpg" style="width: 1200px;">
+  <img src="\images\Summer4.jpg" style="width: 1200px;">
+</div>
+<article class="article12">
+  <h1 >Subscribe to our awesome emails.</h1>
+  <p style="margin-left: 3rem; margin-top: -1rem;">Get our latest offers and news straight in your inbox.</p>
+  <form class="form1">
+    <br>
+  <input type="text" name="Subscribe1" required style="width: 220px; height: 40px; margin-left: 30px; ">
+  <button class='Subscribe1' style="background-color: black; color: white; font-size: 25px; border: none; border-radius: 8px; height: 41px;">Subscribe</button>
+</form>
+  <h1 style="margin-left: 80rem; margin-top: -12rem;">Download our apps</h1>
+  <p style="margin-left: 79.5rem; margin-top: -1rem;">Shop our products and offers on-the-go.</p>
+  <img src="\images\google.png" width="110px" height="40px" style="margin-left: 800px;">
+  <img src="\images\app.png" width="110px" height="40px" style="margin-left: 0px;">
+
+</article>
+<br>
+<br>
+<br>
+<footer class="footer1">
+  <br>
+<div class="footerDiv1">
+  <h3>Women</h3>
+  <p>Ethic Wear</p>
+  <p>Eastern Wear</p>
+  <p>Sleep Wear</p> 
+  <p>Sports Wear</p>
+  <p>Top Brands</p>  
+  <p>Beauty</p> 
+  <p>Foot Wear/Bags</p>
+  <p>Watches</p> 
+  <p>Jewellery</p> 
+  <p>Fragrances</p>
+</div>
+<div class="footerDiv2">
+  <h3>Men</h3>
+  <p>Topwear</a</p>
+  <p>Bottomwear</p>
+  <p>Activewear</p>
+  <p>Ethnic</p>
+  <p>Winterwear</p>
+  <p>Innerwear</p>
+  <p>Top Brands</p>
+  <p>Watches</p>
+  <p>Sunglasses</p>
+  <p>Shoes</p> 
+  <p>Grooming</p>
+  <p>Add-ons</p>
+</div>
+<div class="footerDiv3">
+  <h3>Kids</h3>
+  <p>Boys</p>
+  <p>Girls</p>
+  <p>Top Brands</p>
+  <p>Accessories</p>
+  <p>Price Point Store</p>
+  <p>Age Store</p>
+  <p>Shop Boys Footwear</p>
+  <p>Shop Girls Footwear</p>
+</div>
+<div class="footerDiv4">
+  <h3>Shoes & Bags</h3>
+    <p>women</p>
+    <p>Men</p>
+    <p>Boys</p>
+    <p>Girls</p>
+    <p>Accessories</p>
+    <p>Essentials</p>
+</div>
+<div class="footerDiv5">
+  <h3>Beauty</h3>
+  <p>Makeup Eyes</p>
+  <p>Makeup Face</p>
+  <p>Makeup Lips</p>
+  <p>Makeup Nails</p>
+  <p>Perfumes</p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section style="width: 100%; height: 100px; background-color: white; border-top: 0.5px solid rgb(168, 168, 168);">
+    <br>
+    <img src="Outfit.png" width="200px">
+    <h5 style="color: black;   margin-top: -20px; margin-left: 405px; font-size: 20px;" >Terms & Conditions - Privacy Policy</h5>
+    <div style="margin-top: -50px; ">
+    <i class="fa fa-facebook" style="color: black; padding: 0 10px; font-size: 40px; margin-left: 1000px;"></i>
+    <i class="fa fa-twitter" style="color: black; font-size: 40px; padding: 0 10px;"></i>
+    <i class="fa fa-instagram" style="color:black; font-size: 40px; padding: 0 10px;"></i>
+    <i class="fa fa-youtube" style="color: black; font-size: 40px; padding: 0 10px;"></i>
+  </div>
+  </section>
+<!-- 
+<div style="margin-left: 900px; background-color:blueviolet;">
+  <img src="Outfit.png" width="200px" style="margin-left: -900px;">
+  <p style="margin-left: -500px; margin-top: -20px; background-color: blueviolet;">Terms & Conditions - Privacy Policy</p>
+  <div style="margin-top: -40px; background-color:blueviolet;">
+  <i class="fa fa-facebook" style="color: black; font-size: 40px; padding-bottom: 20px;"></i>
+  <i class="fa fa-twitter" style="color: black; margin-left: 25px; font-size: 40px; "></i>
+  <i class="fa fa-instagram" style="color:black; margin-left: 25px; font-size: 40px;"></i>
+  <i class="fa fa-youtube" style="color: black; margin-left: 25px; font-size: 40px;"></i>
+</div>
+</div>  -->
+</footer>
+  <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+</body>
+</html>
